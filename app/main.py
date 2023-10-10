@@ -1,4 +1,5 @@
 import multiprocessing
+import os
 from pathlib import Path
 
 import uvicorn as uvicorn
@@ -117,6 +118,7 @@ def start_module():
 
 
 if __name__ == '__main__':
+    print(os.path.dirname(__file__))
     # 初始化数据库
     init_db()
     # 更新数据库

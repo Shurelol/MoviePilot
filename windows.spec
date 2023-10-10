@@ -82,7 +82,7 @@ exe = EXE(
     collect_pkg_data('database', include_py_files=True),
     [],
     name='MoviePilot',
-    debug=False,
+    debug=True,
     bootloader_ignore_signals=False,
     strip=False,
     upx=True,
